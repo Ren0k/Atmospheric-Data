@@ -35,4 +35,4 @@ It uses the same method that KSP uses for getting temperature:
 7) SAT = altTemp + (atmosphereTemperatureOffset * altVarTemp)  
 
 ### Floatcurves  
-I have explained these [curves](https://github.com/Ren0k/Project-Atmospheric-Drag#hermite) in another project.
+I have explained these [curves](https://github.com/Ren0k/Project-Atmospheric-Drag) in another project.
