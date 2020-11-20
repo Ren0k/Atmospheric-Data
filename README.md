@@ -1,4 +1,4 @@
-# Complete atmospheric data model for all atmospheric planets
+# Atmospheric data model for all atmospheric planets
 
 This method returns exact atmospheric data, using the same method that KSP uses, but re-created in kOS.  
 Temperature in particular was the missing data unobtainable with kOS, and this is the main focus of this method.  
