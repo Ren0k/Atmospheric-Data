@@ -27,7 +27,7 @@ It uses the same method that KSP uses for getting temperature:
 1) altTemp = altTemp.floatcurve(shipAltitude)  
 2) latTemp = latTemp.floatcurve(shipLatitude)  
 3) latVarTemp = latVarTemp.floatcurve(shipLatitude)  
-4) altVarTemp = altVarTemp.floatcurve(shipLatitude)  
+4) altVarTemp = altVarTemp.floatcurve(shipAltitude)  
 5) localTime = (vdot(upVector-45lng, sunVector)+1)/2  
 6) atmosphereTemperatureOffset = latTemp + (latVarTemp * localTime)  
 7) SAT = altTemp + (atmosphereTemperatureOffset * altVarTemp)  
