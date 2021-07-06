@@ -5,11 +5,14 @@ Temperature in particular was the missing data unobtainable with kOS, and this i
 
 ## Install  
 
-Simply put the folder 'atmoData' in your KSP/Ships/Script folder.  
+Put the folder 'atmoData' in your KSP/Ships/Script folder.  
 
 ## Use  
 
-From a script enter runpath("atmoData/getAtmoData.ks"). 
+See the example:
+- Run both Time.ks and AtmoData.ks.
+- Init the function you want
+- To change to a different planet, reset the function with the required planet
 
 ## Quick Guide  
 
